@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime.universe</title>
+    <link rel="stylesheet" href="./ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <nav class="headbar darkmode lightmode" id="headbar">
+        <div class="animeuniverse" onclick="showmovieMenu()">
+            <h1   class="h1"><span>ANIME</span>.universe</h1>
+        </div>
+        <div id="greet">
+            <h1 id="greeting"></h1>
+
+        </div>
+        <div class="menu" id="menu">
+            <button onclick="showMenu()" id="openmenu"><i class='bx bx-menu'></i></button>
+            
+
+
+        </div>
+    </nav>
+        <div class="menulist darkmode lightmode" id="menulist">
+                <div class="account " id="profile">
+                    <div class="profile" id="profile">
+                    <img src="./images/Oshinoko.jpg" alt="">
+                    <h1> Arkar Myo Min</h1>
+                    </div>
+
+                </div>
+                <div class="setting" id="setting">
+                    Setting & privacy
+                </div>
+                <div class="setting hs" id="setting hs">
+                    Help & support
+                </div>
+                <div class="setting dark" onclick="darkTheme()">
+                    Dark Mode
+                </div>
+                <div class="setting light" onclick="lightTheme()">
+                    Light Mode
+                </div>
+                <div class="setting gf" id="setting gf">
+                    Give feedback
+                </div>
+                <div class="setting logout" id="setting logout">
+                    Logout
+                </div>
+            
+        </div>
+<nav class="mainbody">
+    <nav class="moviemenu darkmode lightmode" id="moviemenu">
+        <div class="search">
+            <input type="text" placeholder="search">
+            <i class='bx bx-search' style="color:black"></i>
+        </div>
+        <button onclick="showhomeBody()" id="home">Home</button>
+        <button onclick="showrecentWatch()" id="rw">Recently watched </button>
+        <button onclick="newr()" id="nr">New released</button>
+        <button>Upcoming</button>
+
+    
+
+    </nav>
+
+    <div class="homebody darkmode lightmode" id="homebody" >
+        <div class="cover">
+            <img src="./images/4812284.jpg" alt="">
+            <div class="info">
+                <p>Most Popular</p>
+                <h1>Demon Slayer</h1>
+                <p>Season 2</p>
+                <p>Genre: Action, Adventure, Fantasy, Thriller</p>
+                <p>Total Episode:12</p>
+                <P>Playtime per episode:25mins</P>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="./images/Aot.jpeg" alt="">
+                <h3>Attack on Titans: Season1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Boruto.jpeg" alt="">
+                <h3>Boruto: Naruto next generation</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slayer: Season 1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Jujitsu Kaisen.jpeg" alt="">
+                <h3>Jujutsu Kaisen: Season 1 </h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Naruto.jpeg" alt="">
+                <h3>Naruto: Shippuden</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Oshinoko.jpg" alt="">
+                <h3>Oshinoko:Season 1</h3>
+            </div>
+
+
+        </div>
+        <div class="cover">
+            <img src="./images/1319293.jpeg" alt="">
+            <div class="info">
+                <p>Anime of the Week</p>
+                <h1>Chainsawman</h1>
+                <p>Season 2</p>
+                <p>Genre: Action, Adventure, Fantasy, Thriller</p>
+                <p>Total Episode:12</p>
+                <P>Playtime per episode:25mins</P>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="./images/Aot.jpeg" alt="">
+                <h3>Attack on Titans: Season1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Boruto.jpeg" alt="">
+                <h3>Boruto: Naruto next generation</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slayer: Season 1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Jujitsu Kaisen.jpeg" alt="">
+                <h3>Jujutsu Kaisen: Season 1 </h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Naruto.jpeg" alt="">
+                <h3>Naruto: Shippuden</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Oshinoko.jpg" alt="">
+                <h3>Oshinoko:Season 1</h3>
+            </div>
+        
+        
+        </div>
+
+    </div>
+    <div class="recentwatch homebody darkmode lightmode" id="recentwatch">
+        <div class="recentcover">
+            <img src="./images/1319293.jpeg" alt="">
+            <div class="info">
+                <p>Anime of the week</p>
+                <h1>Chainsawman</h1>
+                <p>Season 1</p>
+                <p>Genre: Action, Adventure, Fantasy, Thriller</p>
+                <p>Total Episode:12</p>
+                <p>Playtime per Episode:25mins</p>
+            </div>
+
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode2</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode3</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode4</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode5</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode6</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode7</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode8</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode9</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode10</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode11</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/csman.jpg" alt="">
+                <h3>Chainsaw-man: Episode12</h3>
+            </div>
+        </div>
+        <div class="recentcover">
+            <img src="./images/4812284.jpg" alt="">
+            <div class="info">
+                <p>Most Popular</p>
+                <h1>Demon Slayer</h1>
+                <p>Season 1</p>
+                <p>Genre: Action, Adventure, Fantasy, Thriller</p>
+                <p>Total Episode:12</p>
+                <p>Playtime per Episode:25mins</p>
+            </div>
+        
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode1</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode2</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode3</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode4</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode5</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode6</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode7</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode8</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode9</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode10</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode11</h3>
+            </div>
+            <div class="movie">
+                <img src="./images/Demon Slayer.jpg" alt="">
+                <h3>Demon Slyer: Episode12</h3>
+            </div>
+            
+
+
+
+    </div>
+
+
+</nav>
+
+<footer class="footerbar">
+    <a href="#">Term of conditions and services.</a>
+    <p>follow us on:</p>
+    <a href="#"><i class='bx bxl-gmail'></i></a>
+    <a href="#"><i class='bx bxl-facebook'></i></a>
+    <a href="#"><i class='bx bxl-instagram'></i></a>
+   
+</footer>
+
+
+
+
+    
+
+
+</body>
+<script src="./cdnjs.cloudflare.com_ajax_libs_jquery_3.7.0_jquery.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
